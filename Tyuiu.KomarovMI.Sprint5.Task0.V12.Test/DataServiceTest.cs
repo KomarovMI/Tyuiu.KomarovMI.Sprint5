@@ -12,7 +12,7 @@ namespace Tyuiu.KomarovMI.Sprint5.Task0.V12.Test
         public void CheckedExistsFile()
         {
             DataService ds = new DataService();
-            string path = @"C:\Пользователи\maxim\source\repos\Tyuiu.KomarovMI.Sprint5\Tyuiu.KomarovMI.Sprint5.Task0.V12\bin\Debug\OutPutFileTask0.txt";
+            string path = @"C:\Users\maxim\source\repos\Tyuiu.KomarovMI.Sprint5\Tyuiu.KomarovMI.Sprint5.Task0.V12\bin\Debug\OutPutFileTask0.txt";
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
             bool wait = true;
