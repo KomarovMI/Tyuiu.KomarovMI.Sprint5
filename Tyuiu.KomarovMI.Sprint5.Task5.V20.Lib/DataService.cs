@@ -27,7 +27,7 @@ namespace Tyuiu.KomarovMI.Sprint5.Task5.V20.Lib
                 int countDouble = 0; 
                 while ((line=reader.ReadLine()) != null)
                 {
-                    string[] lines = File.ReadAllLines(line);
+                   
                                  
                         if (int.TryParse(line, out int number)) 
                         {
